@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexivel</title>
+</head>
+<body>
+    <h1>imagem flwxível</h1>
+    <p>Você esta vendo a imagem completa? Experimente amplicar o tamanho da<br>sua janela para aproveitar melhor a experiência</p>
+    <picture>
+        <source media="(max-width: 740px)" srcset="imagens/imagem_p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem_m.png" type="image/png">
+        <img src="imagens/imagem_g.png" alt="imagem flexivel">
+    </picture>
+    <p>Exemplo de outra imagem flexivel</p>
+    <picture>
+        <source media="(max-width: 780px)" srcset="imagens/imagem-maop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-maom.png" type="image/png">
+        <img src="imagens/imagem-maog.png" alt="imagem flexivel2">
+    </picture>
+</body>
+</html>

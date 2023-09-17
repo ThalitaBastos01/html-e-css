@@ -8,7 +8,7 @@
 
 
 html, body {
-    min,height: 100vh;
+    min-height: 100vh;
     background-color: darkgray;
 }
 
@@ -16,6 +16,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+
 }
 
 header > h1 {
@@ -26,12 +27,13 @@ header > h1 {
 header > p {
     padding-bottom: 50px;
 
+
 }
 
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
     
@@ -53,8 +55,13 @@ section.normal {
 
 }
 
+section.imagen > p {
+    background-color: rgb(29, 28, 28);
+    width: 400px;
+}
+
 section.imagen {
-    background-color: rgba(12, 3, 3, 0.658);
+    background-color: rgb(54, 54, 54);
     color: white;
 }
 

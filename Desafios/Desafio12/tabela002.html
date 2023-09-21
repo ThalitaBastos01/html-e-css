@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        th {
+            background-color: grey;
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+        THEAD
+            TR, TD, TH 
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>população</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Índia</td>
+                <td class="num">1 429 921 746</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td class="num">1 426 391 281</td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td class="num">339 987 103</td>
+            </tr>
+            <tr>
+                <td>Indonésia</td>
+                <td class="num">277 184 719</td>            
+            </tr>
+            <tr>
+                <td>Paquistão</td>
+                <td class="num">240 215 932</td>
+            </tr>
+            <tr>
+                <td>Nigéria</td>
+                <td class="num">223 899 057</td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td class="num">203 062 512</td>
+            </tr>
+            <tr>
+                <td>Bangladesh</td>
+                <td class="num">172 452 382</td>
+            </tr>
+            <tr>
+                <td>Rússia</td>
+                <td class="num">148 221 749</td>
+            </tr>
+            <tr>
+                <td>México</td>
+                <td class="num">134 127 189</td>
+            </tr>
+            <tr>
+                <td>Etiópia</td>
+                <td class="num">125 092 825</td>
+            </tr>
+            <tr>
+                <td>Japão</td>
+                <td class="num">124 127 899</td>
+            </tr>
+            <tr>
+                <td>Filipinas</td>
+                <td class="num">109 581 078</td>
+            </tr>
+            <tr>
+                <td>Egito</td>
+                <td class="num">102 334 404</td>
+            </tr>
+            <tr>
+                <td>Vietname</td>
+                <td class="num">97 338 579</td>
+            </tr>
+            <tr>
+                <td>Turquia</td>
+                <td class="num">84 339 067</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <th>Resultado total</th>
+            <td class="num"><strong>00000</strong></td>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>

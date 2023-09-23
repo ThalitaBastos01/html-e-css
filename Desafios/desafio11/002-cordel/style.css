@@ -27,13 +27,15 @@ html, body {
 section#img1 {
     background: url(imagens/background001.jpg) center center no-repeat fixed;
     position: relative;
-    width: 100vh;
+   
 }
 
 section#img2 {
     background: url(imagens/background002.jpg) center center no-repeat fixed;
     position: relative;
-    width: 100vh;
+
+    
+    
 } 
 
 header {

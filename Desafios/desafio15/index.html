@@ -11,12 +11,24 @@
     </style>
 </head>
 <body>
-    <h1>Meu primeiro formulario</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="nome" id="nome"></p>
+    <!--label = as etiquetas
 
-        <p><input type="submit" value="Enviar"></p>
+    para o php funcionar bem em formularios, eu preciso que todo input(todo objeto de entrada tenha um "name") 
+    e name é mais ultil em  html e php/
+
+   para linguagens como js o id  é mais ultilizado e util para o label.
+-->
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
         
     </form>
 

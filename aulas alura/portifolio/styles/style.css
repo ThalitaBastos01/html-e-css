@@ -22,6 +22,8 @@ body {
     
 }
 
+
+
 .cabecalho {
     padding: 2% 0% 0% 15%;
 }
@@ -31,12 +33,12 @@ body {
     gap: 80px;
 }
 
-
 .cabecalho__menu__link {
     font-family: var(--font2);
     font-size: 24px;
     font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 
@@ -64,6 +66,8 @@ body {
     font-size: 36px;
 }
 
+
+
 .titulo-destaque {
     color: #22D4FD;
 }
@@ -74,6 +78,9 @@ body {
     
     
 }
+
+
+
 
 .apresentacao__links__subtitulo {
     font-family: var(--font1);
@@ -91,7 +98,7 @@ body {
     flex-direction: column;
     gap: 32px;
     justify-content: space-between;
-
+    
     
 }
 
@@ -114,6 +121,8 @@ body {
 .apresentacao__links__link:hover {
     background-color: #272727;
 }
+
+
 
 .rodape {
     font-family: var(--font2);

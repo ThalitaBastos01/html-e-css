@@ -19,13 +19,17 @@
    para linguagens como js o id  é mais ultilizado e util para o label.
 -->
     <h1>Meu primeiro formulario</h1>
-    <form action="cadastro.php" autocomplete="off" method="post">
+    <form action="cadastro.php" autocomplete="" method="post" >
+
         <p><label for="inome">Nome:</label> 
-            <input type="text" name="nome" id="inome">
+            <input type="text" name="nome" id="inome" required minlength="3" maxlength="15">
         </p>
+
         <p><label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome">
+            <input type="text" name="sobrenome" id="isobrenome" required minlength="8"> 
+
         </p>
+
         <p>
             <input type="submit" value="Enviar">
         </p>

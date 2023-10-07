@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulárioo</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Centro-Oeste">
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Goiás</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="">Piauí</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Pernambuco</option>
+                    <option value="MG">Rio Grande do Norte</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Ceará</option>
+                    <option value="">Bahia</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Sergipe</option>
+                </optgroup>
+
+                <optgroup label="Região Centro-Norte">
+                    <option value="">Amazonas</option>
+                    <option value="">Pará</option>
+                    <option value="">Roraima</option>
+                    <option value="">Amapá</option>
+                    <option value="">Acre</option>
+                    <option value="">Tocantins</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option>Administração</option>
+                <option>Medico(a)</option>
+                <option>Desenvolvedor web</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>

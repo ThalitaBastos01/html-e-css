@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="inum">Nível</label>
+            <input type="range" name="num" id="inum" min="0" max="100" oninput="iniv.innerHTML = Number(inum.value)">
+            <output id="iniv">50</output>
+        </p>
+
+
+    </form>
+
+
+</body>
+</html>

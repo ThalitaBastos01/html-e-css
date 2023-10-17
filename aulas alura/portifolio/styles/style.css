@@ -42,7 +42,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -51,16 +51,16 @@ body {
 
 
 .apresentacao {
-    
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 5% 15%;
+    gap: 82px;
     
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -70,7 +70,7 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-family: var(--font-primaria);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 
@@ -81,7 +81,7 @@ body {
 
 .apresentacao__conteudo__texto {
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     
     
 }
@@ -91,7 +91,7 @@ body {
 
 .apresentacao__links__subtitulo {
     font-family: var(--font-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 
     
@@ -109,34 +109,55 @@ body {
     
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     border: 2px solid var(--cor-terciaria);
     background-color: var(--cor-primaria);
     border-radius: 8px;
     color: var(--cor-secundaria);
     display: flex;
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     justify-content: center;
     gap: 16px;
     padding: 21.5px 0;
     text-align: center;
     text-decoration: none;
-    width: 280px;
+    width: 50%;
 }
 
 .apresentacao__links__link:hover {
     background-color: var(--cor-hover);
 }
 
-
+.apresentacao__imagem {
+    width: 50%;
+}
 
 .rodape {
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
     padding: 24px;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        padding: 5%;
+        flex-direction: column-reverse;
+    }
+    
+    .apresentacao__conteudo {
+        width: auto;
+    }
 }

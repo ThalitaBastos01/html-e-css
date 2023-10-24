@@ -1,4 +1,5 @@
 .carossel__titulo {
+    font-family: var(--font-principal);
     color: var(--laranja);
     background-color: var(--branco);
     text-align: center;
@@ -25,6 +26,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    font-family: var(--font-principal);
 }
 
 
@@ -35,6 +37,7 @@
 
 .botoes {
     display: flex;
+
 }
 
 
@@ -61,6 +64,7 @@
     color: var(--laranja);
     font-weight: 700;
     padding-top: 10px;
+    font-family: var(--font-principal);
     
 }
 
@@ -81,6 +85,7 @@
 }
 
 .botoes__ancora {
+    font-family: var(--font-principal);
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);

@@ -78,15 +78,15 @@
 }
 
 .botoes__item {
-    margin: 0.5em;
+    margin: 0.1em;
 }
 
 .botoes__ancora {
-    font-family: var(--font-principal);
     background-color: var(--laranja);
-    padding: 1em 2.2em;
     color: var(--branco);
+    font-family: var(--font-principal);
     font-weight: 700;
+    padding: 1em 2.2em;
     text-decoration: none;
 }
 

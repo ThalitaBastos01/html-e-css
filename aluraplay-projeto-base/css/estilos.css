@@ -97,6 +97,7 @@ body {
 .menu__container {
     background-color: var(--azul-escuro);
     font-size: 14px;
+    
 }
 
 .menu__itens:hover {

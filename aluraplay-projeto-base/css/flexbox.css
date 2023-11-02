@@ -91,6 +91,8 @@
     font-size: 14px;
     color: #444444;
 }
+
+
 @media (min-width: 834px) {
     /*CABECALHO*/
     .cabecalho__pesquisar__item {
@@ -98,11 +100,11 @@
     }
 
     /* RODAPÉ */
-
+    
     .rodape__container {
         justify-content: space-between;
     }
-
+    
     /* MENU */
 
     .menu__container {
@@ -111,7 +113,13 @@
         width: 74px;
         top: 80px;
     }
-
+    
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px
+    }
     .menu__lista {
         flex-direction: column;
         justify-content: flex-start;

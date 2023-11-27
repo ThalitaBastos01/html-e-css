@@ -45,6 +45,10 @@
         display: none;
     }
 
+    .menu-lateral {
+        width: 208px;
+    }
+
     .navbar {
         display: none;
     }
@@ -73,6 +77,10 @@
     .navbar,
     .cabecalho__logo {
         display: none;
+    }
+
+    .menu-lateral {
+        width: 228px;
     }
 
 }
